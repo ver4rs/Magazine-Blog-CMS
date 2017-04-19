@@ -1,0 +1,690 @@
+body {
+	color: #232323;
+	background: #FAFAFA;
+	margin: 0px;
+}
+a {
+	color: #23c23c;
+	text-decoration: none;
+}
+
+/*   vrch   */
+.panel_fix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 35px;
+	background-color: #454545;
+	z-index: 2;
+
+}
+.panel_fix #doplnky {
+	padding-top: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+	font-family: "Lucida Sans";
+	color: #DEDEDE;
+	float: right;
+}
+.panel_fix #doplnky #nav-hore {
+	display: inline;
+	/*margin-left: 500px;*/
+}
+
+.panel_fix #doplnky #nav-hore ul {
+	display: inline;
+}
+.panel_fix #doplnky #nav-hore ul li {
+	display: inline;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.panel_fix #doplnky #nav-hore ul li a {
+	color: #EDEDED;
+	margin-left: 20px;
+}
+
+.panel_fix #doplnky #nav-hore ul li a#farba-hore1:hover {
+	color: #23c23c;
+	border-bottom: 2px solid #23c23c;
+	padding-bottom: 5px;
+}
+.panel_fix #doplnky #nav-hore ul li a#farba-hore2:hover {
+	color: #ac4ac4;
+	border-bottom: 2px solid #ac4ac4;
+	padding-bottom: 5px;
+}
+.panel_fix #doplnky #nav-hore ul li a#farba-hore3:hover/*, .panel_fix #doplnky #nav-hore ul li a#farba-hore3:active, .panel_fix #doplnky #nav-hore ul li a#farba-hore3:visited*/ {
+	color: #3ca3ca;
+	border-bottom: 2px solid #3ca3ca;
+	padding-bottom: 5px;
+}
+.panel_fix #doplnky #nav-hore ul li a#farba-hore4:hover {
+	color: #c65c65;
+	border-bottom: 2px solid #c65c65;
+	padding-bottom: 5px;
+}
+
+.panel_fix #doplnky #nav-hore ul li:hover ul {
+	display: block;
+	position: absolute;
+	border: 2px solid #565656;
+	background: #454545;
+	font-family: "Lucida Sans";
+	color: #DEDEDE;
+	margin: 7px 0px 0px 50px;
+}
+/*   sub  contact     */
+.panel_fix #doplnky #nav-hore ul li:hover ul {
+	text-decoration: none;
+	list-style: none;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li {
+	padding: 0px;
+	font-size: 12px;
+	text-decoration: none;
+	list-style: none;
+
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span h4 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span #spravca {
+	margin: 0px;
+	padding: 0px;
+	margin-left: -25px;
+
+	display: block;
+	margin-bottom: 5px;
+	color: #ABABAB;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span #spravca label {
+	display: inline-block;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span #spravca span {
+	display: inline-block;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span #spravca a {
+	color: #ABABAB;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span #spravca a:hover {
+	color: #3ca3ca;
+	text-decoration: underline;
+}
+
+/*     sub contac write me   */
+.panel_fix #doplnky #nav-hore ul li:hover ul li span form {
+	display: block;
+	margin-left: -25px;
+	margin-right: 10px;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span form p {
+	display: block;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span form p label {
+	color: #A4A4A4;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span form p input, .panel_fix #doplnky #nav-hore ul li:hover ul li span form p textarea {
+	width: 150px;
+	background: #565656;
+	border: 1px solid #353535;
+	padding: 4px 6px;
+	color: #CDCDCD;
+	font-weight: 800px;
+	font-variant: 2.5em;
+}
+.panel_fix #doplnky #nav-hore ul li:hover ul li span form p input:hover, .panel_fix #doplnky #nav-hore ul li:hover ul li span form p input:visited, .panel_fix #doplnky #nav-hore ul li:hover ul li span form p input:active, .panel_fix #doplnky #nav-hore ul li:hover ul li span form p textarea:hover {
+	border: 1px solid #A3A3A3;
+}
+
+
+
+/*      sub menu hore       */
+.panel_fix #doplnky #nav-hore ul li ul {
+	display: none;
+	position: absolute;
+	list-style: none;
+	text-decoration: none;
+}
+
+/*        IKONA PRIHLASENIA hore           */
+.oknoprofil {
+	height: 35px;
+	font-size: 14px;
+	margin-left: 250px;
+}
+.oknoprofil #microimage {
+	display: inline;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	padding-bottom: 17px;
+
+}
+.oknoprofil #microprofil1 {
+	display: inline;
+	position: absolute;
+	padding-top: 3px;
+	color: #DEDEDE;
+	font-family: Arial;
+}
+.oknoprofil #microprofil2 {
+	color: #23c23c;
+
+}
+.oknoprofil p{
+	display: none;
+	background: #CDCDCD;
+	width: 250px;
+	height: 150px;
+	margin-left: 250px;
+	margin-top: -19px;
+	border-top: 2px solid #23c23c;
+}
+.oknoprofil:hover p {
+	display: block;
+	position: absolute;
+}
+
+
+
+
+
+/*   odoberaj ikona   */
+.panel_fix #doplnky  #odoberaj-ikona {
+	display: inline;
+}
+.panel_fix #doplnky  #odoberaj-ikona a {
+	display: inline;
+	margin-left: 20px;
+}
+.panel_fix #doplnky #odoberaj-ikona a img {
+	width: 25px;
+	vertical-align: middle;
+}
+
+
+
+
+/*    celok   */
+.celok {
+	min-width: 1000px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background: #FAFAFA;  
+}
+
+
+
+/*  navigacia lavo */
+#navigacia {
+	position: fixed;
+	top: 35px;
+	width: 200px;
+	/*height: 350px;*/
+	background: #FAFAFA;
+	float: left;
+	display: block;
+}
+
+/*   navigacia menu lavo  */
+#navigacia .menu-lavo {
+	display: block;
+	margin-top: 150px;
+	margin-left: 25px;
+}
+#navigacia .menu-lavo ul {
+	text-decoration: none;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#navigacia .menu-lavo ul li {
+	text-decoration: none;
+	list-style: none;
+	padding-bottom: 10px;
+}
+#navigacia .menu-lavo ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+
+	color: #151515;
+}
+#navigacia .menu-lavo ul li a:hover, #navigacia .menu-lavo ul li a:active {
+	color: #6F6F6F;
+	padding-left: 10px;
+	border-left: 2px solid #232323;
+
+	/*background: #ffffff;*/
+	padding: 3px 3px 3px auto;
+}
+/*   sub menu lavo */
+#navigacia .menu-lavo ul li ul {
+	display: none;
+	text-decoration: none;
+	list-style: none;
+	margin:0;
+	padding:0;
+
+
+}
+#navigacia .menu-lavo ul li ul li {
+	text-decoration: none;
+	list-style: none;
+	margin:0;
+	padding:0;
+	padding-bottom: 10px;
+}
+
+#navigacia .menu-lavo ul li:hover ul{
+	/*position: absolute;
+	display: block;*/
+	display: none;
+}
+
+
+
+
+/*   panel telo    */
+.telo {
+	/*float: left;*/
+	margin-left: 200px;
+	margin-top:35px;
+	background: #FAFAFA;
+	display: block;
+}
+.telo #galeria {
+	display: block;
+	background: #FAFAFA;
+
+}
+
+
+
+/*   galeria cesta   */
+.telo #galeria .cesta {
+	height: 28px;
+	/*border: 1px solid #F1F1F1;
+	background: #F1F1F1;*/
+	z-index: 1;
+	position: relative;
+	margin-bottom: 15px;
+}
+.telo #galeria .cesta a {
+	height: 26px;
+	margin-top: 5px;
+	color: #565655;
+	margin-left: 5px;
+}
+.telo #galeria .cesta a img {
+	height: 26px;
+	vertical-align: middle;
+	margin-right: 5px;
+
+}
+.telo #galeria .cesta img {
+	height: 10px;
+}
+.telo #galeria .cesta a:hover, .telo #galeria .cesta a img:hover{
+	/*background: url('http://localhost/galeria/obrazok/homeh.png') no-repeat transparent;*/
+	color: #232323;
+	height: 26px;
+	vertical-align: middle;
+}
+.telo #galeria .cesta a img:hover {
+	height: 26px;
+	vertical-align: middle;
+	/*background: url('http://localhost/galeria/obrazok/homeh.png') no-repeat transparent;*/
+}
+
+
+
+
+/*   obrazok   */
+.telo #galeria #obrazok {
+	visibility: visible;
+	background: #FAFAFA;
+	border: 1px solid #D7D7D7;
+	border-radius: 4px;
+	box-shadow: 1px 1px 6px #DDDDDD;
+	-moz-box-shadow: 1px 1px 6px #DDDDDD;
+	-webkit-box-shadow: 1px 1px 6px #DDDDDD;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+
+}
+.telo #galeria #obrazok:hover {
+	border: 1px solid #B1B1B1;
+	border-radius: 4px;
+    /*background: #F5F5F5;*/
+}
+.telo #galeria #obrazok img {
+    height: 200px;
+    padding:8px 8px 8px 8px;
+    opacity: 1;
+}
+.telo #galeria #obrazok img:hover {
+	opacity: 0.85;
+}
+.telo #galeria #obrazok h5 {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: 700px;
+
+	text-align: center;
+
+	margin-top: -8px;
+	padding: 0px;
+	margin-bottom: -1px;
+}
+.telo #galeria #obrazok span {
+	text-align: center;
+	font-family: "Estrangelo Edessa";
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+
+
+/*           profil           */
+.profil {
+	display: block;
+	position: relative;
+	margin: 20px 0px 0px 0px;
+}
+.profil #titulokmenu {
+	display: block;
+
+}
+.profil #titulokmenu ul {
+	text-decoration: none;
+	list-style: none;
+}
+.profil #titulokmenu ul li {
+	display: inline;
+	padding: 5px 10px;
+	/*background: #DEDEDE;*/
+}
+.profil #titulokmenu ul li a {
+	color: #353535;
+	font-family: Arial;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+}
+.profil #titulokmenu ul li:hover {
+	/*background: #666666;*/
+	border-bottom: 2px solid #353535;
+}
+.profil #titulokmenu ul li a:hover {
+	color: #353535;
+}
+
+.profil #textprofil {
+	margin: 0px 0px 0px 40px;
+	border: 2px solid #DEDEDE;
+	padding: 15px;
+	position: absolute;
+	display: block;
+}
+.profil #textprofil #moznost h1 {
+	font-family: "Times New Roman";
+	margin: 0px;
+	display: inline;
+}
+.profil #textprofil #moznost {
+	display: block;
+}
+.profil #textprofil #moznost span {
+	float: right;
+	margin-top: 15px;
+
+}
+.profil #textprofil img {
+	width: 150px;
+	height: 200px;
+	display: block;
+	width: 150px;
+	float: left;
+}
+.profil #textprofil .popisprofil {
+	float: right;
+	display: block;
+	margin-left: 15px;
+}
+.profil #textprofil .popisprofil p {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+}
+.profil #textprofil .popisprofil p label {
+	display: inline;
+}
+.profil #textprofil .popisprofil p span {
+	display: inline;
+}
+/*        nove menu profil         */
+.profil #textprofil #novemenu {
+	display: block;
+	margin-top: 15px;
+	padding: 15px;
+	position: relative;
+	/*width: 300px;*/
+}
+.profil #textprofil #novemenu h3 {
+	color: #F1F1F1;
+	font-size: 20px;
+	background: #454545;
+	padding: 3px 0px 3px 10px;
+	margin: 0px;
+	/*border-top-left-radius: 5px;
+	border-top-right-radius: 5px;*/
+}
+.profil #textprofil #novemenu form {
+	border-bottom: 2px solid #454545;
+	border-left: 2px solid #454545;
+	border-right: 2px solid #454545;
+
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 5px 15px 15px 15px;
+	background: #565656;
+	margin: 0px;
+}
+.profil #textprofil #novemenu #error, .profil #textprofil #novemenu #ok {
+	background: #565656;
+	margin: 0px;
+	border-left: 2px solid #454545;
+	border-right: 2px solid #454545;
+}
+.profil #textprofil #novemenu form label {
+	color: #DEDEDE;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.profil #textprofil #novemenu form input, .profil #textprofil #novemenu form select {
+	border: 1px solid #353535;
+	background: #454545;
+	color: #CDCDCD;
+	padding: 3px 8px;
+}
+.profil #textprofil #novemenu form input:hover, .profil #textprofil #novemenu form select:hover {
+	border: 1px solid #ABABAB;
+
+}
+.profil #textprofil #novemenu form input[type=submit] {
+	border-radius:5px;
+	padding: 5px 15px;
+	color: #CDCDCD;
+}
+.profil #textprofil #novemenu form input[type=submit]:hover {
+	color: #ABABAB;
+	background: #565656;
+	border: 1px solid #353535;
+
+}
+/*           profil menu odpoved                 */
+.profil #textprofil #novemenu #error {
+	color: #F23232;
+	padding: 15px;
+	font-size: 16px;
+}
+.profil #textprofil #novemenu #ok {
+	color: #23c23c;
+	padding: 15px;
+	font-size: 16px;
+	margin-left: 5px;
+}
+.profil #textprofil #novemenu p img {
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+
+}
+/*           odpoved vymazania hore velke      */
+.profil #textprofil #error {
+	display: block;
+	border:2px solid #CDCDCD;
+	background: #EFEFEF;
+	color: #F23232;
+	font-size: 18px;
+	padding: 10px;
+}
+.profil #textprofil #error img {
+	height: 25px;
+	width: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.profil #textprofil #ok {
+	display: block;
+	border:2px solid #CDCDCD;
+	background: #EFEFEF;
+	color: #23c23c;
+	font-size: 18px;
+	padding: 10px;
+}
+.profil #textprofil #ok img {
+	height: 25px;
+	width: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+
+/*        sprava zobraz galeria vsetko              */
+.profil #textprofil .zobrazgaleria {
+	display: block;
+}
+.profil #textprofil .zobrazgaleria table th {
+	padding: 3px 5px;
+}
+.profil #textprofil .zobrazgaleria table tr td img {
+	height: 50px;
+	width: 50px;
+	display: inline;
+}
+.profil #textprofil .zobrazgaleria table tr td {
+	min-width: 100px;
+	background: #EFEFEF;
+	text-align: center;
+}
+
+
+
+
+
+/*  sprava tabulka menu   */
+.profil #textprofil table th {
+	color: #EFEFEF;
+	background: #454545;
+	padding: 3px 5px;
+}
+
+
+/*       strankovanie      */
+.strankovanie {
+	display: block;
+}
+.strankovanie #strankovanieCislo {
+	display: inline;
+	padding: 3px 5px;
+}
+
+
+
+
+/*        ucet            */
+.ucet {
+	display: block;
+	position: relative;
+	min-width: 600px;
+	border: 1px solid #454545;
+	margin: 50px 0px 0px 50px;
+	text-align: top;
+}
+.ucet #ucetnadpis {
+	border: 1px solid #454545;
+	background: #454545;
+	height: 30px;
+	display: block;
+	color: #DEDEDE;
+	font-family: Arial;
+	font-size: 24px;
+	padding-left: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+.ucet #ucettema {
+	border: 1px solid;
+	padding: 20px;
+}
+.ucet #ucettema p {
+	font-size: 15px;
+	font-family: "Lucida Console";
+	color: red;
+	display: block;
+	max-width: 750px;
+}
+.ucet #ucettema p#cislo5 {
+	color: green;
+}
+.ucet #ucettema p label {
+	color: #232323;
+}
+
+
+
+
+
+/*      spodok        */
+#spodok {
+	/*margin-top: 1200px;*/
+	position: absolute;
+	background: #ABABAB;
+	border: 1px solid #CDCDCD;
+	display: block;
+}

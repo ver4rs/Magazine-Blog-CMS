@@ -1,0 +1,85 @@
+/*   PRofil moznost navyber js */
+
+
+
+
+
+/* Navigation */
+
+nav {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+nav ul {
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #bbb;
+}
+
+nav li {
+    float: left;
+    margin-right: 35px;
+}
+
+nav li a {
+    color: #666;
+    font-weight: bold;
+}
+
+nav li a:hover,
+nav li a:focus,
+nav li a.current {
+    color: #000;
+}
+
+nav #indicator {
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    width: 12px;
+    height: 7px;
+    background-image: url('obrazky/notch.png');
+}
+
+
+
+
+
+/* Content */
+
+#content section {
+    display: none;
+}
+
+#content p {
+    margin-bottom: 1em;
+    max-width: 50em;
+    line-height: 1.6;
+}
+
+
+
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+input::-moz-focus-inner,
+button::-moz-focus-inner /*Remove button padding in FF*/
+{
+    border: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,57 @@
+<IfModule mod_rewrite.c>
+
+
+RewriteBase /http://mobilai.cz/
+
+Options +FollowSymlinks
+RewriteEngine On
+
+
+RewriteCond %{HTTP_HOST} ^mobilai\.cz
+RewriteRule (.*) http://www.mobilai.cz/$1 [R=301,L]
+
+
+
+
+#RewriteRule clanok/([A-Z,a-z,0-9,\_]*) /clanok.php?clanok=$1 [L]
+#RewriteRule ^clanok/([A-Z,a-z,0-9,\_]*)/$ http://elektrobattery.6f.sk/clanok.php?clanok=$1 [L]
+
+
+#RewriteRule ([A-Z,a-z,0-9,\_]*)/([A-Z,a-z,0-9,\_]*) /menu.php?menu=$1/$2
+#RewriteRule ^([A-Z,a-z,0-9,\_]*)/([A-Z,a-z,0-9,\_]*)/$ http://elektrobattery.6f.sk/menu.php?menu=$1/$2/
+
+#RewriteRule /([A-Z,a-z,0-9,\_]*) /menu.php?menu=$1
+#RewriteRule ^([A-Z,a-z,0-9,\_]*)/$ http://elektrobattery.6f.sk/menu.php?menu=$1
+
+# MENU NAVIGACIA este dorobit strankovanie
+#RewriteCond %{REQUEST_URI} ([A-Z,a-z,0-9,\_]*)/
+#RewriteRule menu/([A-Z,a-z,0-9,\_]*)/([A-Z,a-z,0-9,\_]*)/ /clanokMenu.php?menu=$1/$2
+#RewriteRule ^menu/([A-Z,a-z,0-9,\_]*)/([A-Z,a-z,0-9,\_]*)/$ http://elektrobattery.6f.sk/clanokMenu.php?menu=$1/$2/ [R,L]
+
+#RewriteRule menu/([A-Z,a-z,0-9,\_]*)/([A-Z,a-z,0-9,\_]*)/strana/([0-9]+)/ /index.php?sek=$1&kat=$2&strana=$3
+#RewriteRule ^menu/([A-Z,a-z,0-9,\_]*)/([A-Z,a-z,0-9,\_]*)/strana/([0-9]+)$ http://elektrobattery.6f.sk/menu/$1/$2/strana/$3 [R,L]
+
+#RewriteCond %{REQUEST_URI} ([A-Z,a-z,0-9,\_]*)/
+#RewriteRule menu/([A-Z,a-z,0-9,\_]*) /clanokMenu.php?menu=$1
+#RewriteRule ^menu/([A-Z,a-z,0-9,\_]*)$ http://elektrobattery.6f.sk/clanokMenu.php?menu=$1 [R,NC]
+
+
+
+#RewriteRule index.php?sek=([A-Z,a-z,0-9,\_]*)/strana/([0-9]+) /index.php?sek=$1&strana=$2
+#RewriteRule ^menu/([A-Z,a-z,0-9,\_]*)/strana/([0-9]+)$ http://elektrobattery.6f.sk/menu/$1/strana/$2 [R,NC]
+# KONIEC MENU
+
+
+#DOMOV
+#RewriteRule strana/([0-9]+) /?strana=$1
+#RewriteRule ^strana/([0-9]+)$ http://elektrobattery.6f.sk?strana=$1 [R]
+# KONIEC DOMOV
+
+#HLADAT
+#RewriteRule /index.php?hladaj=$1&strana=([0-9]+)/ /index.php?hladaj=$1&strana=$2
+#RewriteRule ^index.php?hladaj=$1&strana=([0-9]+)$ http://elektrobattery.6f.sk/?hladaj=$1&strana=$2/ [R]
+# KONIEC HLADAT
+
+
+
+</IfModule>

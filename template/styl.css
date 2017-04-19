@@ -1,0 +1,1311 @@
+body {
+/*background: #EFEFEF fixed;*/
+background: #ECECEC url(../obrazky/p.jpg) no-repeat  center fixed;
+font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #DB0909;
+}
+a:hover {
+	color: #D70D0D;
+
+}
+
+#panelTitul img {
+	margin-left: 400px;
+	margin-top: -50px;
+	position: absolute;
+}
+/*           Horny panel                                                  */
+.velke {
+	margin: auto;
+	width: 1000px;
+}
+
+#vrch {
+	width: 1000px;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#vrch #hpanel {
+	margin:  -8px auto;
+	padding: 10px;
+	background: #EFEFEF;
+	/*opacity: 0.8;*/
+	vertical-align:top;
+}
+
+#vrch #hpanel a {
+	font-size: 17px;
+	padding-right: 20px;
+	vertical-align:top;
+	color: #111111;
+
+}
+
+#vrch #hpanel a:hover {
+	/*font-size: 17px;
+	padding-right: 20px;
+	vertical-align:top;*/
+	color: brown;
+
+}
+
+
+#vrch #panelTitul {
+	width: 1000px;
+  	height: 80px;
+}
+
+/*    telo hore 2   */
+#vrch #navigacia {
+	width: 1000px;
+
+}
+#vrch #navigacia #hladaj {
+	margin-top: -32px;
+	margin-left: 720px;
+}
+
+#pohyb {
+	display: block;
+	width: 1000px;
+	margin-top: 20px;
+	position: relative;
+
+}
+
+#pohyb #slider {
+	padding: 0px 0px 0px 0px;
+	float: left;
+	position: absolute;
+
+
+}
+
+/*    telo hore 3 pravo    */
+#pohyb #bannerA {
+	float: right;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #DEDEDE;
+	background: #EFEFEF;
+	height: 300px;
+	width: 333px;
+
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+
+#koniecVrch {
+	width: 1000px;
+	height: 350px;
+}
+
+/*        TELO                       */
+#telo {
+	display: block;
+	width: 1000px;
+	position:relative;
+
+}
+
+#telo #sLavo {
+	position:relative;
+	float: left;
+	width: 649px;
+	/*border: 1px solid #4c4e5a;
+
+		-moz-box-shadow:0px 0px 10px #333;
+	-webkit-box-shadow:0px 0px 10px #333;
+	box-shadow:0px 0px 10px #333;
+	*/
+}
+#telo #sLavo #lavoDoplnok {
+	height: 35px;
+	border: 1px solid #dadada;
+	background: #efefef;
+	margin: 0px;
+	padding-top: 7px;
+
+	position: relative;
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+margin-bottom: 15px;
+
+}
+#telo #sLavo #lavoDoplnok span {
+	font-size: 20px;
+	color: #252525;
+	font-family: "Lucida Sans Unicode";
+	margin-left: 10px;
+
+}
+#telo #sLavo #lavoDoplnok span a {
+	color: #252525;
+}
+#telo #sLavo #lavoDoplnok span a:hover {
+	color: #555555;
+}
+#telo #sLavo #lavoDoplnok span img {
+vertical-align: middle;
+margin-right: 5px;
+}
+#telo #sPravo {
+	float: right;
+	width: 333px;
+
+
+}
+#telo #sPravo #archivPravo {
+	border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+		-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+	margin-bottom: 15px;
+}
+#sPravo #archivPravo h3 a {
+	color: #252525;
+	margin-left: 20px;
+}
+#sPravo #archivPravo h3 a:hover {
+	color: #666666;
+
+}
+#sPravo #archivPravo #archivMesiac {
+	margin-top: -15px;
+	margin-bottom: 18px;
+}
+#sPravo #archivPravo #archivMesiac span {
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 2px;
+	color: #666666;
+	font-size: 12px;
+
+}
+#sPravo #archivPravo #archivMesiac span a {
+	color:#353535;
+	font-size: 16px;
+		vertical-align: middle;
+}
+#sPravo #archivPravo #archivMesiac span a:hover {
+	color: #111111;
+	text-decoration: underline;
+	font-size: 16px;
+}
+/*   koniec archiv  */
+
+/*      pocitadlo         */
+#sPravo #pocitadlo {
+		border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+		-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+	margin-bottom: 15px;
+}
+#pocitadlo .pocitadlo {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#pocitadlo .pocitadlo #pocitadlo_nazov h3 {
+	color:#252525;
+	margin-left: 30px;
+	font-family: "Courier New";
+}
+#pocitadlo .pocitadlo #pocitadlo_nazov h3:hover {
+	color: #666666;
+}
+#pocitadlo .pocitadlo #pocitadlo_nazov #pocitadlo_rozdel {
+	display: block;
+	text-indent: 1.5;
+}
+#pocitadlo .pocitadlo #pocitadlo_nazov #pocitadlo_rozdel #pocitadlo_typ {
+	color: #222222;
+}
+#pocitadlo .pocitadlo #pocitadlo_nazov #pocitadlo_rozdel #pocitadlo_pocet1 {
+
+
+}
+#pocitadlo .pocitadlo #pocitadlo_nazov #pocitadlo_rozdel #pocitadlo_typ1 {
+
+}
+#pocitadlo .pocitadlo #pocitadlo_nazov #pocitadlo_rozdel #pocitadloDel {
+	float:right;
+	width: 130px;
+}
+/*        koniec pocitadlo   */
+
+/*  FB like box    */
+#sPravo #fbLikeBoxPravo {
+		border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+		-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+	margin-bottom: 15px;
+}
+/*     koniec FB like box    */
+
+/*   naj prezret  */
+#sPravo #najPrezretPravo {
+	border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+	margin-bottom: 15px;
+}
+#sPravo #najPrezretPravo h3 {
+	color:#252525;
+	margin-left: 30px;
+	font-family: "Courier New";
+
+}
+#sPravo #najPrezretPravo h3:hover {
+	color: #666666;
+}
+#sPravo #najPrezretPravo h3 span {
+	color: #AAAAAA;
+
+	font-size: 15px;
+	font-family: "Courier New";
+
+}
+#sPravo #najPrezretPravo .najClanok {
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+
+	height: 52px;
+
+}
+#sPravo #najPrezretPravo .najClanok {
+	border:1px solid #EFEFEF;
+}
+#sPravo #najPrezretPravo .najClanok:hover {
+	border: 1px solid #DEDEDE;
+	background: #EFEFEF;
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+#najPrezretPravo .najClanok .najObrazok {
+	float: left;
+	width: 65px;
+}
+#najPrezretPravo .najClanok .najText {
+	float:right;
+	width: 233px;
+}
+#najPrezretPravo .najClanok .najText .najNazov {
+	margin: 0px;
+	padding: 0px
+}
+#najPrezretPravo .najClanok .najText .najNazov a {
+	color: #252525;
+
+}
+#najPrezretPravo .najClanok .najText .najNazov a:hover {
+	color: #111111;
+	text-decoration: underline;
+}
+#najPrezretPravo .najClanok .najText .najDatum {
+	color: #666666;
+	font-size: 10px;
+	font-family: "Lucida Sans Unicode";
+}
+/*       koniec naj prezret          */
+
+
+
+
+
+/*   naj koment  */
+#sPravo #najKomentPravo {
+	border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+		-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+	margin-bottom: 15px;
+}
+#sPravo #najKomentPravo h3 {
+	color:#252525;
+	margin-left: 30px;
+	font-family: "Courier New";
+
+}
+#sPravo #najKomentPravo h3:hover {
+	color: #666666;
+}
+#sPravo #najKomentPravo h3 span {
+	color: #AAAAAA;
+
+	font-size: 15px;
+	font-family: "Courier New";
+
+}
+#sPravo #najKomentPravo .najClanok {
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+
+	height: 52px;
+
+}
+#sPravo #najKomentPravo .najClanok {
+	border:1px solid #EFEFEF;
+}
+#sPravo #najKomentPravo .najClanok:hover {
+	/*border: 1px solid #DEDEDE;
+	background: #EFEFEF;
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+*/
+}
+#najKomentPravo .najClanok .najObrazok {
+	float: left;
+	width: 65px;
+}
+#najKomentPravo .najClanok .najText {
+	float:right;
+	width: 233px;
+}
+#najKomentPravo .najClanok .najText .najNazov {
+	margin: 0px;
+	padding: 0px
+}
+#najKomentPravo .najClanok .najText .najNazov a {
+	color: #252525;
+
+}
+#najKomentPravo .najClanok .najText .najNazov a:hover {
+	color: #CF5045;
+	text-decoration: underline;
+}
+#najKomentPravo .najClanok .najText .najDatum {
+	color: #666666;
+	font-size: 10px;
+	font-family: "Lucida Sans Unicode";
+}
+/*       koniec naj koment          */
+
+
+
+
+
+
+/*
+#pohyb #bannerA #reklama {
+	border: 1px solid #4c4e5a;
+	height: 300px;
+	width: 333px;
+	margin: 0px;
+	-moz-box-shadow:0px 0px 10px #333;
+	-webkit-box-shadow:0px 0px 10px #333;
+	box-shadow:0px 0px 10px #333;
+}
+
+/*          koniec Horny panel                                                  */
+
+/*           telo panel
+
+/*    telo hore 1   */
+
+/*
+#stred {
+	width: 1000px;
+	margin-top: 350px;
+	border: 0px solid #FFFFFF;
+	background: #FFFFFF;
+	border-radius: 10px;
+	moz-border-radius: 10px;
+	webkit-border-radius: 10px;
+}
+
+
+/*     clanok      */
+.clanok {
+	/*max-width: 649px;*/
+	max-width: 649px;
+	min-height: 160px;
+	display: block;
+	margin: 0px 0px 15px 0px;
+	padding: 15px;
+	background: #EFEFEF;
+	/*opacity: 0.8;*/
+	border: 1px solid #dedede;
+
+			-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+
+}
+.clanok .clanokObrazok {
+	float: left;
+	width: 160px;
+	padding-right: 10px;
+	margin-top: -10px;
+}
+
+.clanok .clanokText {
+	float: right;
+	text-align: left;
+	width: 435px;
+	margin-top: 0px;
+
+}
+
+.clanok  h3 {
+	margin-top: -10px;
+
+}
+.clanok  h3 a {
+	color: #252525;
+}
+.clanok  h3 a:hover {
+	color: brown;
+}
+.clanok .clanokText #PerexPopisClanok {
+	margin-top: -10px;
+
+}
+.clanok #textPopis {
+	float:left;
+	display: block;
+	min-width: 600px;
+	font-size: 12px;
+	font-family: "Lucida Sans Unicode";
+
+}
+.clanok #textPopis a {
+	color: #252525;
+}
+.clanok #textPopis a:hover {
+	/*color: #111111;*/
+	color: #CF5045;
+	text-decoration: underline;
+}
+.clanok #textPopis span img {
+	vertical-align: middle;
+}
+
+/*  slider   */
+#content #slider4 a img {
+	width: 650px;
+	height: 302px;
+}
+/*    koniec slider   */
+
+
+
+
+.velke #zobrazClanok {
+	position:relative;
+	border: 1px solid #dedede;
+
+	max-width: 649px;
+
+
+	margin: 0px 0px 15px 0px;
+	padding: 15px;
+	background: #EFEFEF;
+	/*opacity: 0.8;*/
+		-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+.clanokcely {
+	position:relative;
+
+	display: block;
+}
+
+.clanokcely .clanokObrazok {
+	float: left;
+	width: 150px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+}
+.clanokcely .clanokText {
+	float: right;
+	text-align: left;
+	width: 435px;
+	margin-top: -15px;
+}
+.clanokcely .clanokText h2 {
+	/*color: #252525;*/
+	color: navy;
+}
+.clanok .clanokText #textPopis span {
+	display: block;
+}
+.clanokcely .clanokText #clanokvlastnost {
+	height: 50px;
+}
+#zobrazClanok #clanok_popis {
+	margin-top: 200px;
+	padding: 20px;
+}
+#zobrazClanok #clanok_popis #span1 {
+	position: absolute;
+	border-top: 1px solid #DADADA;
+	width: 550px;
+	margin-top: -55px;
+
+}
+#zobrazClanok #clanok_popis #span2 {
+	position: absolute;
+	border-top: 1px solid #DADADA;
+	width: 550px;
+	margin: 20px 0px;
+}
+#zobrazClanok #clanok_popis p {
+	padding: 0px 20px;
+	font-family: "Lucida Sans ";
+
+	color: #252525;
+}
+.clanokcely .clanokText span {
+	display: block;
+}
+#zobrazClanok #clanok_text {
+	margin-top: -50px;
+
+	font-size: 16px;
+	color: #252525;
+}
+/*     koniec clanok      */
+
+
+
+
+/*
+require ukaz_clanok.php
+
+
+*/
+
+
+
+/*     spodok      */
+.velke #spodok {
+	width: 1000px;
+	float: left;
+	position: relative;
+	display: block;
+	margin-top: 15px;
+
+}
+#spodok .spod {
+	/*border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;*/
+	margin-bottom: 15px;
+	padding: 15px;
+
+}
+
+#spodok .spod #StlpecVyssie {
+	display: inline;
+}
+
+
+/*   dalsi spodok   */
+.velke #spodok .koniec {
+	/*background-color: #262626;*/
+	width: auto;
+	padding: 20px 0px 20px 0px;
+
+	background: -moz-linear-gradient(top,  rgba(114,111,111,0.89) 0%, rgba(114,111,111,0.91) 12%, rgba(48,47,50,1) 75%, rgba(30,30,33,0.95) 92%, rgba(30,30,33,0.93) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(114,111,111,0.89)), color-stop(12%,rgba(114,111,111,0.91)), color-stop(75%,rgba(48,47,50,1)), color-stop(92%,rgba(30,30,33,0.95)), color-stop(100%,rgba(30,30,33,0.93))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(114,111,111,0.89) 0%,rgba(114,111,111,0.91) 12%,rgba(48,47,50,1) 75%,rgba(30,30,33,0.95) 92%,rgba(30,30,33,0.93) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(114,111,111,0.89) 0%,rgba(114,111,111,0.91) 12%,rgba(48,47,50,1) 75%,rgba(30,30,33,0.95) 92%,rgba(30,30,33,0.93) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(114,111,111,0.89) 0%,rgba(114,111,111,0.91) 12%,rgba(48,47,50,1) 75%,rgba(30,30,33,0.95) 92%,rgba(30,30,33,0.93) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(114,111,111,0.89) 0%,rgba(114,111,111,0.91) 12%,rgba(48,47,50,1) 75%,rgba(30,30,33,0.95) 92%,rgba(30,30,33,0.93) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3726f6f', endColorstr='#ed1e1e21',GradientType=0 ); /* IE6-9 */
+
+
+}
+.velke #spodok .koniec #koniecVrch {
+	margin-left: 20px;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole {
+	float: left;
+	width: 221px;
+	/*background-color: #AAAAAA;*/
+	margin: 0px 20px 0px 0px;
+
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole strong {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #EFEFEF;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole ul {
+	margin-left: -40px;
+	display: block;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole ul li {
+	list-style: none;
+	margin: 0px;
+	display: block;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole ul li a {
+	color: #111111;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole ul li a:hover {
+	text-decoration: underline;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole ul li #strankaPis1 {
+	font-size: 10px;
+	text-transform: uppercase;
+	vertical-align: top;
+	color: red;
+	margin-left: 5px;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole ul li #strankaPis2 {
+	font-size: 10px;
+	text-transform: uppercase;
+	vertical-align: top;
+	color: green;
+	margin-left: 5px;
+}
+
+.velke #spodok .koniec #koniecVrch .stlpecDole ul li #strankaPis3 {
+	font-size: 10px;
+	text-transform: uppercase;
+	vertical-align: top;
+	color: brown;
+	margin-left: 5px;
+}
+
+
+.velke #spodok .koniec #koniecVrch .stlpecDole #spodPodpora {
+	margin-left: 5px;
+	margin-top: 10px ;
+	margin-bottom: 10px ;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole #redaktorText {
+	color: #CDCDCD;
+	margin-top: 10px;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole #redaktorText a {
+	color: #ABABAB;
+}
+.velke #spodok .koniec #koniecVrch .stlpecDole #redaktorText a:hover {
+	text-decoration: underline;
+}
+
+.velke #spodok .koniec #koniecSpod {
+	background-color: #6F6F6F;
+	padding: 10px 20px;
+}
+.velke #spodok .koniec #koniecSpod span {
+	font-size: 14px;
+
+}
+.velke #spodok .koniec #koniecSpod span a {
+	color: #232323;
+}
+.velke #spodok .koniec #koniecSpod span a:hover {
+	text-decoration: underline;
+}
+/*     koniec spodok      */
+
+
+
+
+/*      Strankovanie      */
+.velke .strankovanie {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.velke .strankovanie #strankovanieCislo {
+	display: inline;
+	background: #EFEFEF;
+	/*opacity: 0.8;*/
+	border: 1px solid #DEDEDE;
+	padding: 5px;
+	margin: 5px;
+
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+
+.velke .strankovanie a #strankovanieCislo  {
+	color: #252525;
+	font-size: 18px;
+	font-weight:bold;
+
+
+}
+
+.velke .strankovanie a:hover #strankovanieCislo  {
+	color: #666666;
+
+}
+
+/*     koniec Strankovanie      */
+
+/*     zobrazenie jedneho clanku      */
+
+
+
+/*     koniec zobrazenie jedneho clanku      */
+
+
+
+/*      prihlas         */
+.form, #akciaDokonc {
+	/*max-width: 649px;*/
+	min-height: 200px;
+	display: block;
+	margin: 0px 0px 15px 0px;
+	padding: 15px;
+	background: #EFEFEF;
+	/*opacity: 0.8;*/
+	border: 1px solid #DEDEDE;
+
+			-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+.form #formtext, #akciaDokonc #formtext {
+	font-family: "Verdana";
+
+}
+.form #formerror {
+	font-family: "Franklin Gothic Book";
+	font-weight:bold;
+	color: red;
+}
+.form #errorok {
+	font-family: "Franklin Gothic Book";
+	font-weight:bold;
+	color: green;
+}
+.form #formspod {
+	font-family: "Lucida Sans";
+}
+.form form table tr td textarea {
+	min-width: 470px;
+}
+/*      koniec prihlas         */
+
+
+/*        Profil          */
+.profil {
+		max-width: 649px;
+	min-height: 200px;
+	display: block;
+	margin: 0px 0px 15px 0px;
+	padding: 15px;
+	background: #EFEFEF;
+	/*opacity: 0.8;*/
+	border: 1px solid #DEDEDE;
+
+			-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+.profil #profiltitul {
+
+}
+#profilzac #avatar {
+	float: left;
+	padding-right: 10px;
+}
+#profilzac #profilkratky {
+
+}
+#profilkratky {
+	font-family: "Lucida Sans";
+}
+#profilkratky {
+	min-width: 400px;
+}
+#profilkratky p {
+	margin: 4px;
+}
+#profilkratky p label {
+	color: #121212;
+	font-size: 17px;
+}
+#profilkratky p span {
+	color: #121212;
+	font-size: 17px;
+	font-family: sans-serif;
+
+}
+
+#profilDalej {
+	text-align: center;
+	margin-top: 15px;
+}
+#profilDalej ul {
+
+}
+#profilDalej ul li {
+	display: inline;
+	text-decoration: none;
+	font-size: 18px ;
+	padding: 8px 30px;
+
+	background: #ECECEC;
+	border-top: 1px solid #DEDEDE;
+	border-left: 1px solid #DEDEDE;
+	border-right: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+		-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+#profilDalej ul li:hover, #profilDalej ul li:hover:active, #profilDalej ul li:visited {
+	border-bottom: 1px solid #ECECEC;
+
+
+}
+#profilDalej ul li a {
+	color: #222222;
+}
+#profilDalej ul li a:hover, #profilDalej ul li a:active, #profilDalej ul li a:visited {
+	color: #555555;
+}
+/*        koniec Profil          */
+
+
+
+/*        zobrazenie tab menu          */
+#zobrazTab {
+	/*max-width: 800px;*/
+	display: block;
+	margin: 0px 0px 15px 0px;
+	padding: 15px;
+	background: #EFEFEF;
+	/*opacity: 0.8;*/
+	border: 1px solid #DEDEDE;
+
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+#zobrazTab h3 {
+	text-align: center;
+}
+#content a img {
+	vertical-align: middle;
+	margin-bottom: 5px;
+	color: #222222;
+}
+.form #conten a img {
+	vertical-align:middle;
+	margin-bottom: 5px;
+	color: #222222;
+	font-family: "Verdana", "Arial", sans-serif;
+	font-size: 1.1em;
+}
+.form #conten a {
+	color: #222222;
+	font-family: "Verdana", "Arial", sans-serif;
+	font-size: 1.1em;
+}
+/*
+***************
+************************
+***************
+***********
+*********
+************
+**********
+
+	/*
+	Pretty Table Styling
+	CSS Tricks also has a nice writeup: http://css-tricks.com/feature-table-design/
+	*/
+
+	table {
+
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+		background:#fefefe;
+		width:100%;
+		/*max-width: 580px;
+		/*margin:2% auto 0;*/
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+
+	th, td {padding:9px 13px 9px; text-align:center; }
+
+	th {padding-top:11px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+
+	td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+
+	tr.odd-row td {background:#f6f6f6;}
+
+	td.first, th.first {text-align:left}
+
+	td.last {border-right:none;}
+
+	/*
+	Background gradients are completely unnecessary but a neat effect.
+	*/
+
+	td {
+		background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+	}
+
+	tr.odd-row td {
+		background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+	}
+
+	th {
+		background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+		background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+	}
+
+	/*
+	I know this is annoying, but we need additional styling so webkit will recognize rounded corners on background elements.
+	Nice write up of this issue: http://www.onenaught.com/posts/266/css-inner-elements-breaking-border-radius
+
+	And, since we've applied the background colors to td/th element because of IE, Gecko browsers also need it.
+	*/
+
+	tr:first-child th.first {
+		-moz-border-radius-topleft:5px;
+		-webkit-border-top-left-radius:5px; /* Saf3-4 */
+	}
+
+	tr:first-child th.last {
+		-moz-border-radius-topright:5px;
+		-webkit-border-top-right-radius:5px; /* Saf3-4 */
+	}
+
+	tr:last-child td.first {
+		-moz-border-radius-bottomleft:5px;
+		-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+	}
+
+	tr:last-child td.last {
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+	}
+
+
+/*
+*************************************************
+******************************************
+************************************
+****************************
+*****************************
+*************************************
+**********************************************
+****************************************************
+
+
+/*     komentare       */
+#napis_komentar {
+	max-width: 640px;
+	margin-top: 80px;
+}
+#napis_komentar h3 {
+	font-family: "Lucida Sans Unicode";
+	margin-left: 10px;
+}
+#napis_komentar form label {
+		font-family: "Franklin Gothic Book";
+	font-weight:bold;
+}
+#komentAvatar {
+	float: left;
+	margin: 5px 15px 0px 0px;
+
+}
+#komentText {
+
+
+}
+#komentAvatar img {
+	width: 60px;
+	height: 70px;
+}
+
+#jedenCaptcha input {
+	width: 100px;
+	display: inline;
+}
+#jedenCaptcha label {
+	vertical-align: middle;
+	display: inline;
+}
+
+#jedenCaptcha img {
+	display: inline;
+	vertical-align: middle;
+}
+
+#napis_komentar #formerror {
+	font-family: "Franklin Gothic Book";
+	font-weight:bold;
+	color: red;
+}
+
+
+
+
+#napis_komentar *:focus{
+	/*outline:none;  Prevents blue border in Webkit */
+}
+
+
+#napis_komentar #top_bit {
+	width:760px;
+	margin: 0 auto;
+}
+
+#napis_komentar form {
+	width:600px;
+	margin: 20px auto;
+}
+
+#napis_komentar p {
+	line-height: 1.6;
+}
+
+#komentarVypis {
+	margin:2px;
+	display: block;
+	max-width: 610px;
+	min-height: 74px;
+	border: 1px solid #DEDEDE;
+	background: #EFEFEF;
+	margin-bottom: 10px;
+
+-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+}
+#komentarVypis #komentarAvatar {
+	float: left;
+	margin: 2px 8px 2px 2px;
+}
+#komentarVypis #komentarText {
+	margin-top: 2px;
+	width: 570px;
+}
+#komentarVypis #komentarText a {
+	color: #353535;
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode";
+}
+#komentarVypis #komentarText a:hover {
+	color: #111111;
+	font-size: 14px;
+	text-decoration: underline;
+
+}
+#komentarVypis #komentarText span {
+	color: #666666;
+	font-size: 10px;
+		font-family: "Lucida Sans Unicode";
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#komentarVypis #komentarText p {
+	font-family: "Lucida Sans ";
+	color: #212121;
+	margin-top: 5px;
+
+}
+#komentarVypis #komentarAvatar img {
+	width: 60px;
+	height: 70px;
+}
+
+#napis_komentar form input, textarea {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			background-color:#fff;
+			border:1px solid #666;
+			font-size:16px;
+			width:300px;
+			min-height:25px;
+			display:block;
+			margin-bottom:13px;
+			margin-top:6px;
+
+			-webkit-border-radius:5px;
+			-moz-border-radius:5px;
+			border-radius:5px;
+
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+
+#napis_komentar form  textarea {
+	min-height:100px;
+	min-width: 400px;
+		}
+/*
+#napis_komentar form input:focus, textarea:focus {
+	-webkit-box-shadow:0 0 15px #ccc;
+	-moz-box-shadow:0 0 15px #ccc;
+			box-shadow:0 0 15px #ccc;
+
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+			transform: scale(1.05);
+		}
+
+		 The interesting bit */
+
+#napis_komentar form input:not(:focus), textarea:not(:focus) {
+	opacity:0.5;
+		}
+
+#napis_komentar form input:required, textarea:required {
+	background:url("tests/formdemo/asterisk_orange.png") no-repeat 280px 7px;
+		}
+
+#napis_komentar form input:valid, textarea:valid {
+	background:url("tests/formdemo/tick.png") no-repeat 280px 5px;
+		}
+
+#napis_komentar form input:focus:invalid, textarea:focus:invalid {
+	background:url("tests/formdemo/cancel.png") no-repeat 280px 7px;
+		}
+
+#napis_komentar form input[type=submit] {
+	padding:5px;
+	background:none;
+	opacity:1.0;
+		}
+
+
+#napis_komentar form span {
+	margin-top: -40px;
+	margin-left: 320px;
+}
+/*    koniec komentare       */
+
+/*  email validator obrazok */
+#validEmail {
+	margin-top: 4px;
+	margin-left: 9px;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+}
+/*  koniec email validator obrazok */
+
+
+/*     reklama   */
+#ReklamaMedziClanok {
+	text-align: center;
+	margin-bottom: 15px;
+}
+/*     koniec reklama    */
+
+
+
+/*      PODPORA      */
+#sPravo #podpora {
+	border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+		-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+	margin-bottom: 15px;
+}
+#sPravo #podpora #podporText {
+	margin: 0px 15px 10px 15px;
+
+}
+
+#sPravo #podpora #podporText h3 {
+	color: red;
+	font-family: "Courier New";
+	text-align: center;
+
+
+}
+#sPravo #podpora #podporText h3:hover {
+	color: green;
+}
+#sPravo #podpora #podporText span {
+	color: #111111;
+	font-size: 15px;
+	font-family: "Lucida Sans";
+}
+#sPravo #podpora #podporForm {
+	text-align: center;
+	margin-bottom: 10px;
+}
+/*     KONIEC PODPORA   */
+
+
+
+/*             ODOBERANIE       */
+.zdielanie {
+	border: 1px solid #DEDEDE;
+	position:relative;
+	margin: 0px;
+	background: #EFEFEF;
+	-moz-box-shadow:0px 0px 10px #fff;
+	-webkit-box-shadow:0px 0px 10px #fff;
+	box-shadow:0px 0px 10px #fff;
+	margin-bottom: 15px;
+	padding: 15px 0px;
+	padding-left: 20px;
+}
+.zdielanie a {
+	margin: 0px 19px 0px 0px;
+}
+.zdielanie a:hover {
+
+}
+.zdielanie a img {
+	width: 39px;
+}
+
+/*             KONIEC   ODOBERANIE       */
+
+
+/*  podmienky cele   */
+.form #podmienkyCele {
+	text-align: justify;
+}
+/*  koniec podmienky cele   */
