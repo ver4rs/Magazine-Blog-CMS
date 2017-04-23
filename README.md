@@ -1,4 +1,4 @@
-# Magazine - InfoNews World
+# Magazine - InfoNews World = 2012
 Magazine, which is based on their own CMS blog system. Magazine has articles about apple, andoroid and IT technologies.
 
 ## Description
